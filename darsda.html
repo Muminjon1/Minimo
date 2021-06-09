@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wrapper {
+            max-width: 1020px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .item {
+            position: relative;
+            border-radius: 4px;
+            box-shadow: 0 0 1px 1px grey, 0 0 10px rgba(0, 0, 0, .5);
+            margin-bottom: 30px;
+            width: 300px;
+            border: 3px solid #fff;
+            display: flex;
+            flex-direction: column;
+         }
+
+         .item:nth-child(1) {
+            background: blue;
+         }
+         .item:nth-child(2) {
+            background: #FFC107;
+         }
+         .item:nth-child(3) {
+            background: pink;
+         }
+         .item:nth-child(4) {
+            background: lightcyan;
+         }
+         .item:nth-child(5) {
+            background: lightseagreen;
+         }
+         .item:nth-child(6) {
+            background: lime;
+         }
+
+         .item-img {
+             height: 100px;
+             width: 100%;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+         }
+
+         .item-img img {
+             width: 50px;
+             height: 50px;
+         }
+
+         .item-text {
+             width: 100%;
+             background: grey;
+             color: #fff;
+             padding: 15px;
+             text-align: center;
+         }
+
+         .item-num {
+             position: absolute;
+             left: 50%;
+             top: -20px;
+             transform: translateX(-50%);
+             height: 40px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+            color: #fff;
+            background: #FFC107;
+            border-radius: 20px;
+            padding: 10px;
+            font-size: 20px;
+            border: 3px solid white;
+         }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="item">
+            <span class="item-num">120</span>
+            <div class="item-img">
+                <img src="./start.jpg">
+            </div>
+            <p class="item-text">Lorem, ipsum.</p>
+        </div>
+        <div class="item">
+            <span class="item-num">120</span>
+            <div class="item-img">
+                <img src="./start.jpg">
+            </div>
+            <p class="item-text">Lorem, ipsum.</p>
+        </div>
+        <div class="item">
+            <span class="item-num">120</span>
+            <div class="item-img">
+                <img src="./start.jpg">
+            </div>
+            <p class="item-text">Lorem, ipsum.</p>
+        </div>
+        <div class="item">
+            <span class="item-num">120</span>
+            <div class="item-img">
+                <img src="./start.jpg">
+            </div>
+            <p class="item-text">Lorem, ipsum.</p>
+        </div>
+        <div class="item">
+            <span class="item-num">120</span>
+            <div class="item-img">
+                <img src="./start.jpg">
+            </div>
+            <p class="item-text">Lorem, ipsum.</p>
+        </div>
+        <div class="item">
+            <span class="item-num">120</span>
+            <div class="item-img">
+                <img src="./start.jpg">
+            </div>
+            <p class="item-text">Lorem, ipsum.</p>
+        </div>
+    </div>
+</body>
+</html>

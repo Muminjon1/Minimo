@@ -1,0 +1,274 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page {
+    padding-top: 60px;
+}
+
+.container-xl {
+    margin: 0 auto;
+    max-width: 1070px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .header .menu,
+.header .logo{
+    background: green;
+} */
+
+.header .menu {
+    /* background: green; */
+}
+.header .menu a {
+    margin-right: 110px;
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header .menu a:hover {
+    color: #000;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+.header .menu a:last-child {
+    margin-right: 0;
+}
+
+.banner {
+    /* border: 1px solid green; */
+    overflow: hidden;
+    margin-top: 65px;
+    height: 509px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+.first-post {
+    padding-top: 90px;
+}
+.first-post .subtitle{
+    color: #b4ad9e;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.first-post .title {
+    text-transform: lowercase;
+    color: #626262;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.first-post .title::first-letter {
+    text-transform: uppercase;
+}
+.first-post .text {
+    margin-top: 30px;
+    color: #626262;
+    font-size: 14px;
+}
+.first-post .text-2 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+/* POsts */
+
+.second-post {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+.second-post .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.second-post .container .post{
+    max-width: 420px;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.second-post .container .post .img {
+    width: 100%;
+}
+
+.second-post .container .post .img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.second-post .container .post-subtitle {
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.second-post .container .post-title {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #626262;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.second-post .container .post-text {
+    color: #626262;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.sine {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sine-title{
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 70px;
+    font-weight: 400;
+}
+
+.sine-form {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    height: 40px;
+}
+
+.sine-form input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    background: transparent;
+    padding: 10px 50px 10px 10px;
+}
+
+.sine-form button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    border: none;
+    background: transparent;
+}
+
+.sine-form button:focus {
+    outline: none;
+    background: rgba(0, 0, 0, .1);
+}
+
+
+/* ENd of .sine */
+
+
+.third-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-post-btn {
+    margin-top: 80px;
+    text-decoration: none;
+    padding: 20px 40px;
+    color:#626262;
+    border: 1px solid #626262;
+    font-size: 20px;
+}
+
+.third-post-btn:hover {
+    background: #626262;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.footer {
+    background: #f0f0f0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .container-xl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left,
+.footer-right {
+    color: #000;
+    font-size: 14px;
+    display: flex;
+}
+
+
+.footer-left p:last-child {
+    margin-left: 30px;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right p {
+    margin-right: 30px;
+}
+
+.footer-right .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.footer-right .social:last-child {
+    margin-right: 0;
+}
